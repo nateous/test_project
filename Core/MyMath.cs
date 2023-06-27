@@ -1,5 +1,5 @@
 ﻿namespace Core;
-public class Class1
+public class MyMath
 {
     public int Add(int a, int b) => a + b;
 }
