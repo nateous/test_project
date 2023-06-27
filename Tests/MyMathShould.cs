@@ -3,7 +3,7 @@ using Core;
 
 namespace Tests;
 
-public class Tests
+public class MyMathShould
 {
     [SetUp]
     public void Setup()
@@ -11,9 +11,9 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    public void AddTwoNumbers()
     {
-        var adder = new Class1();
+        var adder = new MyMath();
         Assert.AreEqual(3, adder.Add(1, 2));
     }
 }
