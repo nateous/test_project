@@ -1,1 +1,6 @@
 
+JetBrains support found the issue with test coverage not working!
+
+I had installed dotnet via brew.
+
+After uninstalling from brew and reinstalling dotnet from the real dotnets site... then test coverage started working again :shrug:
